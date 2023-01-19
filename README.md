@@ -17,3 +17,7 @@ This project is aimed to accomplish image to image translation of real world ima
 ## Datasets
 
 Datasets of real face images and its corresponding cartoon images were collected from the kaggle. You can download datasets from this link <https://www.kaggle.com/datasets/defileroff/comic-faces-paired-synthetic-v2>. It contains the pair of face image and its corresponding comic version. Seperate the imges into 'train' image and 'validation' image and also for testing.
+
+## Machine Learning
+
+The machine learning model takes 512x512 rgb image as a input. It compresses the images of size 64x64 and then reconstructs it to the output rgb image of size 512x512.
