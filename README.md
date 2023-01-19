@@ -13,3 +13,7 @@ This project is aimed to accomplish image to image translation of real world ima
 * tensorflow 2.10.0
 * numPy
 * matplotlib
+
+## Datasets
+
+Datasets of real face images and its corresponding cartoon images were collected from the kaggle. You can download datasets from this link <https://www.kaggle.com/datasets/defileroff/comic-faces-paired-synthetic-v2>. It contains the pair of face image and its corresponding comic version. Seperate the imges into 'train' image and 'validation' image and also for testing.
