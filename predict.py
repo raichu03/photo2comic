@@ -30,7 +30,9 @@ def get_prediction(input_path):
     input_data = preprocess(input_path)
     
     model = tf.keras.models.load_model('model/real2comic_V1.h5')
+    
     input_data = next(input_data)
+    print("hi")
     predictions = model.predict(input_data)
     
     return predictions, input_data
